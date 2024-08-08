@@ -1,0 +1,14 @@
+.text__input_wrapper {
+    margin-top: 10px;
+}
+
+.button__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.button__wrapper > button {
+    padding: 5px;
+}

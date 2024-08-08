@@ -1,0 +1,31 @@
+.blacklist__wrapper {
+    margin-top: 30px;
+}
+
+.blacklist__header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.select__wrapper {
+    width: 30%;
+    min-width: 150px;
+}
+
+.blacklist__res_wrapper {
+    max-height: 240px;
+    overflow-y: scroll;
+}
+
+.blacklist__res {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.icon__wrapper {
+    cursor: pointer;
+}

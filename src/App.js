@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { useDispatch, useSelector } from "react-redux";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Common/Header/Header";
+import Loader from "./components/Common/Loader/Loader";
+import Main from "./components/Main/Main";
 
 function App() {
+  const { loadingProxyIp } = useSelector((state) => state.proxyIp);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app-wrapper container">
+        <Loader isShow={loadingProxyIp} />
+        <Routes>
+          <Route path="/" element={<Main />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

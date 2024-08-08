@@ -1,0 +1,15 @@
+.modal__window {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button__wrapper > button {
+    padding: 5px 10px;
+}
