@@ -2,7 +2,7 @@ import { Autocomplete, TextField } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import { Controller } from "react-hook-form";
-import styles from "./AddIpToBlacklistForm.module.css";
+import styles from "./AddIpToBlacklist.module.css";
 
 const AddIpToBlacklistForm = ({
   control,
