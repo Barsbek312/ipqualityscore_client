@@ -13,7 +13,7 @@ function App() {
       <div className="app-wrapper container">
         <Loader isShow={loadingProxyIp} />
         <Routes>
-          <Route path="/ipqualityscore_client" element={<Main />} />
+          <Route path="/ipqualityscore_client/" element={<Main />} />
         </Routes>
       </div>
     </BrowserRouter>
