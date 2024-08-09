@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ipqualityscore_client/static/css/main.057a0840.css",
-    "main.js": "/ipqualityscore_client/static/js/main.8ab6f6f4.js",
+    "main.js": "/ipqualityscore_client/static/js/main.8a351e0f.js",
     "static/js/453.258b012d.chunk.js": "/ipqualityscore_client/static/js/453.258b012d.chunk.js",
     "index.html": "/ipqualityscore_client/index.html",
     "main.057a0840.css.map": "/ipqualityscore_client/static/css/main.057a0840.css.map",
-    "main.8ab6f6f4.js.map": "/ipqualityscore_client/static/js/main.8ab6f6f4.js.map",
+    "main.8a351e0f.js.map": "/ipqualityscore_client/static/js/main.8a351e0f.js.map",
     "453.258b012d.chunk.js.map": "/ipqualityscore_client/static/js/453.258b012d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.057a0840.css",
-    "static/js/main.8ab6f6f4.js"
+    "static/js/main.8a351e0f.js"
   ]
 }
